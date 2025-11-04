@@ -5,18 +5,22 @@ This program manages and processes student test data using C++ struct and array.
 
 Functions used:
 
-readData() – Reads all student information (name and score).
+    readData()  // Reads all student information (name and score).
 
-assignGrades() – Converts numerical scores to letter grades.
+    assignGrades() // Converts numerical scores to letter grades.
 
-findHighestScore() – Finds the highest test score in the class.
+    findHighestScore() // Finds the highest test score in the class.
 
-printAllStudents() – Displays all student data in a formatted table.
+    printAllStudents() // Displays all student data in a formatted table.
 
-printHighestScoreName(int best) – Lists students who achieved the top score.
+    printHighestScoreName(int best) // Lists students who achieved the top score.
+
+
 
   Compile:
+  
     g++ student_test_score.cpp -o student_test_score.exe
 
   Run:
+  
     ./student_test_score
